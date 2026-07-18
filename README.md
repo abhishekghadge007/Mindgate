@@ -1,16 +1,26 @@
 # MINDGATE
 
-Mental Health Triage & Resource Allocation Engine.
+MINDGATE is a web-based mental health assessment system that helps identify students who may need counseling support. It uses PHQ-9 and GAD-7 questionnaires to assess mental health and prioritizes students based on risk levels.
 
-## Run
-```
+## Features
+- Student & Counselor Login
+- PHQ-9 and GAD-7 Assessment
+- Risk Classification (Green, Yellow, Red)
+- Counselor Dashboard
+- Firebase Authentication & Firestore
+
+## Tech Stack
+- React.js
+- Vite
+- Tailwind CSS
+- Firebase
+
+## Run Project
+
+```bash
 npm install
 npm run dev
 ```
-Open http://localhost:5173
 
-## Firebase setup
-1. Create project at https://console.firebase.google.com
-2. Enable Email/Password in Authentication
-3. Create Firestore Database (test mode)
-4. Paste your config into `src/firebase/config.js`
+## Author
+**Abhishek Ghadge**
