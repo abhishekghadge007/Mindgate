@@ -22,5 +22,5 @@ npm install
 npm run dev
 ```
 
-## Author
+## Developed By
 **Abhishek Ghadge**
